@@ -1,0 +1,205 @@
+/*Para limpiar los margenes y rellenos por defecto*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+/*Tipo de letra y color*/
+body {
+  font-family: 'Raleway', sans-serif !important;
+  color: rgb(163, 153, 153);
+  text-align: center;
+}
+/*Posición de la columna*/
+.container-flex-column {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  padding: 2em;
+}
+/*Degradando el fondo*/
+.degraded{
+  background: linear-gradient( rgb(136, 136, 0) 65%, rgb(124, 98, 75));
+}
+/*Para que me tome el 100% del alto de la pantalla*/
+.vh100{
+  height: 100vh;
+}
+/*Posiciono el logo */
+.position{
+  text-align: center;
+}
+/*Mapa responsive*/
+.google-maps {
+  position: relative;
+  padding-bottom: 40%; 
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+  /*para la selección del restaurant*/
+.elemento{
+  display: none;
+}
+#pai div {
+  display: none;
+}
+/*Estilos a las imagenes*/
+.tam-img{
+  width: 300px;
+  height: 280px;
+  margin: 20px;
+border-radius: 5px;
+}
+/*Para el efecto de las imágenes al pasar el mouse*/
+.tam-img:hover{
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  box-shadow: 0px 0px 10px 10px #b38c70;
+  -webkit-box-shadow: 0px 0px 10px 10px #cfc4bc;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+ filter: sepia(60%);
+}
+h4{
+  color: #f7b617;
+  font-weight: bold;
+  margin: 20px;
+}
+h2{
+  font-weight: bold;
+  color: #555353;
+}
+h1{
+  color: #ffffff;
+  font-weight: bold;
+}
+p{
+  font-size: 20px
+}
+.title{
+  color: white;
+  font-weight: bold;
+}
+/*Efecto de carga*/
+.loader {
+  font-size: 5px;
+  margin: 8% auto;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-animation: load4 1.3s infinite linear;
+  animation: load4 1.3s infinite linear;
+}
+@-webkit-keyframes load4 {
+  0%,
+  100% {
+    box-shadow: 0em -3em 0em 0.2em #ffffff, 2em -2em 0 0em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 -0.5em #ffffff, 0em 3em 0 -0.5em #ffffff, -2em 2em 0 -0.5em #ffffff, -3em 0em 0 -0.5em #ffffff, -2em -2em 0 0em #ffffff;
+  }
+  12.5% {
+    box-shadow: 0em -3em 0em 0em #ffffff, 2em -2em 0 0.2em #ffffff, 3em 0em 0 0em #ffffff, 2em 2em 0 -0.5em #ffffff, 0em 3em 0 -0.5em #ffffff, -2em 2em 0 -0.5em #ffffff, -3em 0em 0 -0.5em #ffffff, -2em -2em 0 -0.5em #ffffff;
+  }
+  25% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 0em #ffffff, 3em 0em 0 0.2em #ffffff, 2em 2em 0 0em #ffffff, 0em 3em 0 -0.5em #ffffff, -2em 2em 0 -0.5em #ffffff, -3em 0em 0 -0.5em #ffffff, -2em -2em 0 -0.5em #ffffff;
+  }
+  37.5% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 0em #ffffff, 2em 2em 0 0.2em #ffffff, 0em 3em 0 0em #ffffff, -2em 2em 0 -0.5em #ffffff, -3em 0em 0 -0.5em #ffffff, -2em -2em 0 -0.5em #ffffff;
+  }
+  50% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 0em #ffffff, 0em 3em 0 0.2em #ffffff, -2em 2em 0 0em #ffffff, -3em 0em 0 -0.5em #ffffff, -2em -2em 0 -0.5em #ffffff;
+  }
+  62.5% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 -0.5em #ffffff, 0em 3em 0 0em #ffffff, -2em 2em 0 0.2em #ffffff, -3em 0em 0 0em #ffffff, -2em -2em 0 -0.5em #ffffff;
+  }
+  75% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 -0.5em #ffffff, 0em 3em 0 -0.5em #ffffff, -2em 2em 0 0em #ffffff, -3em 0em 0 0.2em #ffffff, -2em -2em 0 0em #ffffff;
+  }
+  87.5% {
+    box-shadow: 0em -3em 0em 0em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 -0.5em #ffffff, 0em 3em 0 -0.5em #ffffff, -2em 2em 0 0em #ffffff, -3em 0em 0 0em #ffffff, -2em -2em 0 0.2em #ffffff;
+  }
+}
+@keyframes load4 {
+  0%,
+  100% {
+    box-shadow: 0em -3em 0em 0.2em #ffffff, 2em -2em 0 0em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 -0.5em #ffffff, 0em 3em 0 -0.5em #ffffff, -2em 2em 0 -0.5em #ffffff, -3em 0em 0 -0.5em #ffffff, -2em -2em 0 0em #ffffff;
+  }
+  12.5% {
+    box-shadow: 0em -3em 0em 0em #ffffff, 2em -2em 0 0.2em #ffffff, 3em 0em 0 0em #ffffff, 2em 2em 0 -0.5em #ffffff, 0em 3em 0 -0.5em #ffffff, -2em 2em 0 -0.5em #ffffff, -3em 0em 0 -0.5em #ffffff, -2em -2em 0 -0.5em #ffffff;
+  }
+  25% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 0em #ffffff, 3em 0em 0 0.2em #ffffff, 2em 2em 0 0em #ffffff, 0em 3em 0 -0.5em #ffffff, -2em 2em 0 -0.5em #ffffff, -3em 0em 0 -0.5em #ffffff, -2em -2em 0 -0.5em #ffffff;
+  }
+  37.5% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 0em #ffffff, 2em 2em 0 0.2em #ffffff, 0em 3em 0 0em #ffffff, -2em 2em 0 -0.5em #ffffff, -3em 0em 0 -0.5em #ffffff, -2em -2em 0 -0.5em #ffffff;
+  }
+  50% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 0em #ffffff, 0em 3em 0 0.2em #ffffff, -2em 2em 0 0em #ffffff, -3em 0em 0 -0.5em #ffffff, -2em -2em 0 -0.5em #ffffff;
+  }
+  62.5% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 -0.5em #ffffff, 0em 3em 0 0em #ffffff, -2em 2em 0 0.2em #ffffff, -3em 0em 0 0em #ffffff, -2em -2em 0 -0.5em #ffffff;
+  }
+  75% {
+    box-shadow: 0em -3em 0em -0.5em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 -0.5em #ffffff, 0em 3em 0 -0.5em #ffffff, -2em 2em 0 0em #ffffff, -3em 0em 0 0.2em #ffffff, -2em -2em 0 0em #ffffff;
+  }
+  87.5% {
+    box-shadow: 0em -3em 0em 0em #ffffff, 2em -2em 0 -0.5em #ffffff, 3em 0em 0 -0.5em #ffffff, 2em 2em 0 -0.5em #ffffff, 0em 3em 0 -0.5em #ffffff, -2em 2em 0 0em #ffffff, -3em 0em 0 0em #ffffff, -2em -2em 0 0.2em #ffffff;
+  }
+}
+
+
+
+/*Color de fondo a la página principal*/
+.bg_body{
+  background: linear-gradient( rgb(136, 136, 0) 65%, rgb(124, 98, 75));
+}
+/*Estilos para la img_food*/
+.food{
+  margin: 20px;
+  width: 100%;
+}
+.text{
+  background-color: #b38c70;
+  height: 340px;
+  padding: 100px;
+}
+/*Carousel*/
+.margin_carousel, .platillos{
+margin: 20px;
+}
+.platillos{
+  font-size: 25px;
+  color: #cfc4bc;
+  font-weight: bold;
+}
+ /*Para la separación de títulos*/ 
+ .separation{
+  display: inline-block;
+  position: relative;
+  color: white;
+  font-size: 35px;
+  z-index: 1;
+  margin: 20px;
+}
+.separation::after, .separation::before {
+  border-bottom: 3px solid #fff;
+  bottom: 50%;
+  content: "";
+  margin: 0 23px;
+  position: absolute;
+  width: 90px;
+}
+.separation::before {
+  left: -120px;
+}
+
+.separation::after {
+  right: -120px;
+}

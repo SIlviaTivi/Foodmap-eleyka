@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="../assets/icons/ava_comida.ico">
+  <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Karina - "Footmap (Principal)"</title>
+</head>
+
+<body class="bg_body">
+
+  <div class=" container ">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>FOOTMAP GOURMED</h1>
+        <div class="google-maps">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12698.017302765014!2d-5.924386855443038!3d37.28317952472348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd12705c945f7355%3A0x1f6735c306757c59!2sDos+Hermanas%2C+Sevilla%2C+Espa%C3%B1a!5e0!3m2!1ses!2s!4v1387797719272"
+            width="600" height="450" frameborder="0" style="border:0"></iframe>
+        </div>
+        <p class="separation">Comida cerca de ti</p>
+        <form action="">
+          <select id="select" class="form-control">
+            <option value="">Seleccione</option>
+            <option value="div2">Entradas</option>
+            <option value="div3">Platos de Fondo</option>
+            <option value="div4">Sopas y Cremas</option>
+            <option value="div5">Postres</option>
+          </select>
+
+        </form>
+
+        <div id="pai">
+
+          <div id="div2">
+            <img src="../assets/images/entradas/croquetas.jpg" alt="plato" class=" img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_Vegas">
+            <img src="../assets/images/entradas/empanadas.jpg" alt="plato" class=" img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_Pelota">
+            <img src="../assets/images/entradas/escabeche.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_limeñita">
+            <img src="../assets/images/entradas/torrejitas.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_Viajero">
+            <img src="../assets/images/entradas/fideos.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_kokis">
+            <img src="../assets/images/entradas/humitas.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_sol">
+            <img src="../assets/images/entradas/palta.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_rincon">
+            <img src="../assets/images/entradas/salpicon.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_trad">
+            <img src="../assets/images/entradas/soltero.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_falcon">
+
+          </div>
+          <div id="div3">
+            <img src="../assets/images/fondo/Carapulcra.jpg" alt="plato" class=" img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_Vegas">
+            <img src="../assets/images/fondo/caucau.jpg" alt="plato" class=" img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_Pelota">
+            <img src="../assets/images/fondo/ceviche.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_limeñita">
+            <img src="../assets/images/fondo/huancaia.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_Viajero">
+            <img src="../assets/images/fondo/lomo.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_kokis">
+            <img src="../assets/images/fondo/papaRellena.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_sol">
+            <img src="../assets/images/fondo/pollitoDorado.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_rincon">
+            <img src="../assets/images/fondo/rocoto.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_trad">
+            <img src="../assets/images/fondo/tamalesVerdes.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_falcon">
+          </div>
+
+          <div id="div4">
+            <img src="../assets/images/sopas/aguadito.jpg" alt="plato" class=" img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_Vegas">
+            <img src="../assets/images/sopas/Chupe.jpg" alt="plato" class=" img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_Pelota">
+            <img src="../assets/images/sopas/consome.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_limeñita">
+            <img src="../assets/images/sopas/cremaEsp.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_Viajero">
+            <img src="../assets/images/sopas/cremaTom.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_kokis">
+            <img src="../assets/images/sopas/cremaZap.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_sol">
+            <img src="../assets/images/sopas/menestron.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_rincon">
+            <img src="../assets/images/sopas/sopaMinuta.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_trad">
+            <img src="../assets/images/sopas/sopaseca.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_falcon">
+          </div>
+          <div id="div5">
+            <img src="../assets/images/postres/arrozL.jpg" alt="plato" class=" img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_Vegas">
+            <img src="../assets/images/postres/budin.jpg" alt="plato" class=" img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_Pelota">
+            <img src="../assets/images/postres/flan.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_limeñita">
+            <img src="../assets/images/postres/orange.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_Viajero">
+            <img src="../assets/images/postres/picarones.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_kokis">
+            <img src="../assets/images/postres/pie.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_sol">
+            <img src="../assets/images/postres/pinia.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_rincon">
+            <img src="../assets/images/postres/tortaChoc.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_trad">
+            <img src="../assets/images/postres/turron.jpg" alt="plato" class="img-thumbnail tam-img" data-toggle="modal" data-target="#Modal_falcon">
+
+          </div>
+        </div>
+        <!-- Carrusel -->
+        <div class="separation ">
+          <p class="size2">Platillos Especiales</p>
+        </div>
+        <div id="myCarousel" class="carousel slide margin_carousel" data-ride="carousel">
+
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+
+          <div class="carousel-inner">
+
+            <div class="item active">
+
+              <img src="../assets/images/especiales/1.png" alt="plat_1" data-toggle="modal" data-target="#Modal_Vegas">
+            </div>
+
+            <div class="item">
+              <img src="../assets/images/especiales/2.png" alt="plat_2" data-toggle="modal" data-target="#Modal_limeñita">
+            </div>
+
+            <div class="item">
+              <img src="../assets/images/especiales/3.png" alt="plat_3" data-toggle="modal" data-target="#Modal_rincon">
+            </div>
+
+            <div class="item">
+              <img src="../assets/images/especiales/4.png" alt="plat_4" data-toggle="modal" data-target="#Modal_falcon">
+            </div>
+
+            <div class="item">
+              <img src="../assets/images/especiales/5.png" alt="plat_5" data-toggle="modal" data-target="#Modal_sol">
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+        <!-- Modal  Las Vegas -->
+        <div class="modal fade" id="Modal_Vegas" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title" id="exampleModalLabel">Las vegas</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="google-maps ">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12698.017302765014!2d-5.924386855443038!3d37.28317952472348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd12705c945f7355%3A0x1f6735c306757c59!2sDos+Hermanas%2C+Sevilla%2C+Espa%C3%B1a!5e0!3m2!1ses!2s!4v1387797719272"
+                    width="600" height="450" frameborder="0" style="border:0"></iframe>
+                </div>
+                <h4>La mejor comida peruana</h4>
+                <div class="row">
+                  <div class="col-xs-6">Calle de Eolo #461
+                    <p>Santa Anita
+                      <br>Telf:963699775</p>
+                  </div>
+                  <div class="col-xs-6">Precio: S/. 10.00
+                    <p>Servicio a Domicilio</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning">Pedir Ahora</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin del Modal  Las Vegas -->
+        <!-- Modal  La Pelota -->
+        <div class="modal fade" id="Modal_Pelota" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title" id="exampleModalLabel">La Pelota</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="google-maps ">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12698.017302765014!2d-5.924386855443038!3d37.28317952472348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd12705c945f7355%3A0x1f6735c306757c59!2sDos+Hermanas%2C+Sevilla%2C+Espa%C3%B1a!5e0!3m2!1ses!2s!4v1387797719272"
+                    width="600" height="450" frameborder="0" style="border:0"></iframe>
+                </div>
+                <h4>La mejor comida peruana</h4>
+                <div class="row">
+                  <div class="col-xs-6">Calle Plaza de España #132
+                    <p>Callao
+                      <br>Telf:987654321</p>
+                  </div>
+                  <div class="col-xs-6">Precio: S/. 15.00
+                    <p>Servicio a Domicilio</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning">Pedir Ahora</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin del Modal  Las Vegas -->
+        <!-- Modal  La Limeñita -->
+        <div class="modal fade" id="Modal_limeñita" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title" id="exampleModalLabel">La Limeñita</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="google-maps ">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12698.017302765014!2d-5.924386855443038!3d37.28317952472348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd12705c945f7355%3A0x1f6735c306757c59!2sDos+Hermanas%2C+Sevilla%2C+Espa%C3%B1a!5e0!3m2!1ses!2s!4v1387797719272"
+                    width="600" height="450" frameborder="0" style="border:0"></iframe>
+                </div>
+                <h4>La mejor comida peruana</h4>
+                <div class="row">
+                  <div class="col-xs-6">Avenida Antonio Machado #5322
+                    <p>Callao
+                      <br>Telf:987654321</p>
+                  </div>
+                  <div class="col-xs-6">Precio: S/. 12.00
+                    <p>Servicio a Domicilio</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning">Pedir Ahora</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin del Modal La Limeñita -->
+        <!-- Modal  El Viajero -->
+        <div class="modal fade" id="Modal_Viajero" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title" id="exampleModalLabel">El Viajero</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="google-maps ">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12698.017302765014!2d-5.924386855443038!3d37.28317952472348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd12705c945f7355%3A0x1f6735c306757c59!2sDos+Hermanas%2C+Sevilla%2C+Espa%C3%B1a!5e0!3m2!1ses!2s!4v1387797719272"
+                    width="600" height="450" frameborder="0" style="border:0"></iframe>
+                </div>
+                <h4>La mejor comida peruana</h4>
+                <div class="row">
+                  <div class="col-xs-6">Los Condes #140
+                    <p>Callao
+                      <br>Telf:986324747</p>
+                  </div>
+                  <div class="col-xs-6">Precio: S/. 12.50
+                    <p>Servicio a Domicilio</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning">Pedir Ahora</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin del Modal El Viajero -->
+        <!-- Modal  Kokis -->
+        <div class="modal fade" id="Modal_kokis" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title" id="exampleModalLabel">Kokis</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="google-maps ">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12698.017302765014!2d-5.924386855443038!3d37.28317952472348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd12705c945f7355%3A0x1f6735c306757c59!2sDos+Hermanas%2C+Sevilla%2C+Espa%C3%B1a!5e0!3m2!1ses!2s!4v1387797719272"
+                    width="600" height="450" frameborder="0" style="border:0"></iframe>
+                </div>
+                <h4>La mejor comida peruana</h4>
+                <div class="row">
+                  <div class="col-xs-6">Jr: Mayro #336
+                    <p>San Isidro
+                      <br>Cel:936535487</p>
+                  </div>
+                  <div class="col-xs-6">Precio: S/. 13.00
+                    <p>Servicio a Domicilio</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning">Pedir Ahora</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin del Modal Kokis -->
+        <!-- Modal  Sol de Mayo -->
+        <div class="modal fade" id="Modal_sol" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title" id="exampleModalLabel">Sol de Mayo</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="google-maps ">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12698.017302765014!2d-5.924386855443038!3d37.28317952472348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd12705c945f7355%3A0x1f6735c306757c59!2sDos+Hermanas%2C+Sevilla%2C+Espa%C3%B1a!5e0!3m2!1ses!2s!4v1387797719272"
+                    width="600" height="450" frameborder="0" style="border:0"></iframe>
+                </div>
+                <h4>La mejor comida peruana</h4>
+                <div class="row">
+                  <div class="col-xs-6">Jr: Tarapaca #896
+                    <p>Miraflores
+                      <br>Cel:3543546354</p>
+                  </div>
+                  <div class="col-xs-6">Precio: S/. 15.00
+                    <p>Servicio a Domicilio</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning">Pedir Ahora</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin del Modal Sol de Mayo -->
+        <!-- Modal  Rinconcinto Huanuqueño -->
+        <div class="modal fade" id="Modal_rincon" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title" id="exampleModalLabel"> Rinconcinto Huanuqueño</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="google-maps ">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12698.017302765014!2d-5.924386855443038!3d37.28317952472348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd12705c945f7355%3A0x1f6735c306757c59!2sDos+Hermanas%2C+Sevilla%2C+Espa%C3%B1a!5e0!3m2!1ses!2s!4v1387797719272"
+                    width="600" height="450" frameborder="0" style="border:0"></iframe>
+                </div>
+                <h4>La mejor comida peruana</h4>
+                <div class="row">
+                  <div class="col-xs-6">Jr: 2 de Mayo #995
+                    <p>San iguel
+                      <br>Cel:123456789</p>
+                  </div>
+                  <div class="col-xs-6">Precio: S/. 13.00
+                    <p>Servicio a Domicilio</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning">Pedir Ahora</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin de  Rinconcinto Huanuqueño-->
+        <!-- Modal Falcón-->
+        <div class="modal fade" id="Modal_falcon" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title" id="exampleModalLabel"> Falcón</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="google-maps ">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12698.017302765014!2d-5.924386855443038!3d37.28317952472348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd12705c945f7355%3A0x1f6735c306757c59!2sDos+Hermanas%2C+Sevilla%2C+Espa%C3%B1a!5e0!3m2!1ses!2s!4v1387797719272"
+                    width="600" height="450" frameborder="0" style="border:0"></iframe>
+                </div>
+                <h4>La mejor comida peruana</h4>
+                <div class="row">
+                  <div class="col-xs-6">Jr: 28 de Julio #1254
+                    <p>Callao
+                      <br>Cel:698412987</p>
+                  </div>
+                  <div class="col-xs-6">Precio: S/. 15.00
+                    <p>Servicio a Domicilio</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning">Pedir Ahora</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin de Falcon-->
+        <!-- Modal  Tradiciones Huanuqueñas -->
+        <div class="modal fade" id="Modal_trad" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="modal-title" id="exampleModalLabel">Tradiciones Huanuqueñas</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="google-maps ">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12698.017302765014!2d-5.924386855443038!3d37.28317952472348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd12705c945f7355%3A0x1f6735c306757c59!2sDos+Hermanas%2C+Sevilla%2C+Espa%C3%B1a!5e0!3m2!1ses!2s!4v1387797719272"
+                    width="600" height="450" frameborder="0" style="border:0"></iframe>
+                </div>
+                <h4>La mejor comida peruana</h4>
+                <div class="row">
+                  <div class="col-xs-6">Jr: Huayayco #1024
+                    <p>San Juan de Lurigancho
+                      <br>Cel:987564186</p>
+                  </div>
+                  <div class="col-xs-6">Precio: S/. 9.00
+                    <p>Servicio a Domicilio</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning">Pedir Ahora</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Fin de Tradiciones Huanuqueñas-->
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <hr>
+    <p class="text-footer"> &#169; Eleyka Gourmet 2017</p>
+  </footer>
+  <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../js/select.js"></script>
+</body>
+
+</html>
